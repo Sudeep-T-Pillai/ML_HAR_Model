@@ -1,0 +1,26 @@
+{
+  "name": "Human Activity Recognition Model",
+  "description": "Detects human activities based on accelerometer data",
+  "version": "v1",
+  "author": "Your Name",
+  "license": "Apache License. Version 2.0",
+  "input": {
+    "name": "input",
+    "description": "Accelerometer data",
+    "shape": [
+      1,
+      200,
+      3
+    ],
+    "dtype": "float32"
+  },
+  "output": {
+    "name": "output",
+    "description": "Activity probabilities",
+    "shape": [
+      1,
+      6
+    ],
+    "dtype": "float32"
+  }
+}
